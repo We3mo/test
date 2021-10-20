@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <!-- <title>Watches</title> -->
+		<!-- <link rel = "stylesheet" type = "text/css" href = "css\styles.css"> -->
+		<!-- <script src ="js\home.js"></script> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		
+		<style type = "text/css">
+		    body {  text-align:left;
+			        background-image: url('img/img2.png'); 
+			        background-attachment: fixed;  
+                    background-size: 100% 100%;
+				    background-repeat: no-repeat;
+					color: #1B2631;
+                 }
+				 
+				 
+            <!-- p.inset {border-style: inset;
+			        background-color: #D4E6F1;
+			        border-color: #D4E6F1;
+					margin-top: 50px;
+                    margin-left: 700px;
+					padding: 30px;
+					width: 150px;
+					font-size: 21px;
+					
+					#27AE60 Green 
+					2D8AB6 blue 
+					DF8D5B  brown
+			        } --> 
+			
+			img.ridge  {border-style: ridge ;
+			           border-color: #D4E6F1;
+					   width: 150px;
+					   font-size: 21px;
+					   margin-top: 8px; 
+                       margin-left: 450px;
+					   border-radius: 40px;
+			        }
+					
+			div.round {border-style: ridge;
+			           background-color: #CEDCE0;
+			           border-color: #2D8AB6;
+					   border-radius: 12px;
+					   padding: 3px;
+					   margin-left: 50px;
+					   margin-top: 50px;
+					   width: 650px;
+					   height: 440px;
+					
+			        }
+					
+			h2 { margin-top: -50px;
+			     margin-left: 80px; 
+				 
+			    }
+					
+			div.solid { position: relative;
+			            border-style: groove ;
+						border-color: #27AE60;
+						padding: 1px;
+						margin-top: 30px;
+						margin-left: 20px;
+						width: 605px;
+					    height: 250px;
+                           	   }
+						
+			table { padding : 1px; 
+					margin-top: -5px;
+					margin-left: 25px;
+					margin-right: 20px;
+					border-spacing: 10px;
+					font-size: 18px; 
+            }
+
+            td, th {
+                    padding: 8px;
+                    }
+					
+			.round2 { text-align: center;
+					  border-radius: 10px;
+                      background-color: #EBEFF1; }
+					 
+			.round3 { border-radius: 10px;
+					  }
+					  
+			a.ex1:visited, a.ex1:link {text-decoration: none;
+			                            color: blue;  
+										 }
+			
+			a.ex1:hover, a.ex1:active {text-decoration: underline;
+			                           font-size: 120%;
+			                          }
+									  
+			@media screen and (max-width : 1280px) {
+            /* CSS CODE HERE FOR DESKTOP ---*/
+
+            }
+
+            @media screen and (max-width : 1024px) {
+            /* CSS CODE HERE FOR TABLETS ---*/
+
+            }
+
+            @media screen and (max-width : 768px) {
+            /* CSS CODE HERE FOR SMALL TABLETS ---*/
+
+            }
+
+            @media screen and (max-width : 640px) {
+            /* CSS CODE HERE FOR IPHONE ---*/
+
+            }
+
+            @media screen and (max-width : 480px) {
+            /* CSS CODE HERE FOR SMARTPHONES ---*/
+                #container-wrapper{
+				    margin: 0 auto;
+					max-width: 480px;
+					padding 0 10px; 
+					overflow: hidden;
+				}
+
+            }
+
+            @media screen and (max-width : 320px) {
+            /* CSS CODE HERE FOR SMALL MOBILES ---*/
+
+            }
+
+						
+		    
+			
+        </style>
+    </head>
+	
+    <!--body-->
+    <body style="mobile:yes "  >
+		<!-- <p class="inset">  Mechanical Seals  </p> -->
+		<div id="container-wrapper" > 
+		<div class="round" >
+		    <img  class="ridge " src="img\mechanical seal2.jpg" alt="mechanical seal2.jpg" >
+		
+		    <h2> MECHANICAL SEALS STOCK </h2>
+			
+			<div class="solid" >
+			    <table >
+				    <tr>
+                        <th Style="padding-left: 130px; padding-right: 150px; ">STATUS</th>
+                        <th >Numbers ( Each )</th>
+					</tr>
+					
+					<tr>
+                        <td class="round3" style= "background-color: #EC7063; " >Available in Stock</td>
+                        <td class="round2"> <a href="Division.html" class="ex1" > 211 </a> </td>
+					</tr>
+					
+					<tr>
+                        <td class="round3" style= "background-color: #5499C7;">Under Refurbishment</td>
+                        <td class="round2"> 0</td>
+					</tr>
+					
+					<tr>
+                        <td class="round3" style= "background-color: #F4D03F;">Under Recertification</td>
+                        <td class="round2"> 0 </td>
+					</tr>
+					
+					<tr>
+                        <td class="round3" style= "background-color: #52BE80;">Certification Expiry in Three Months</td>
+                        <td class="round2"> 0</td>
+					</tr>
+                    
+    
+                </table>
+				
+				
+			
+			</div> 
+			<h1 style="font-size: 15px; margin-left: 50px; "> Prepared by : Kalantan, A </h1>  
+			<h1 style="font-size: 15px; margin-left: 140px;">  ( Abu Hassan )  </h1> 
+		</div>
+		
+	</div> 
+		<!-- ---------------------------------------- -->
+		<script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+
+            slider.oninput = function() {
+                output.innerHTML = this.value;
+            }
+        </script>
+
+
+    </body>
+
+</html>
